@@ -6,3 +6,4 @@ inner join products p
 On p.product_id = o_d.product_id
 group by o_d.order_id
 Order by TotalNoOrders DESC;
+  
