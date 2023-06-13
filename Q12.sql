@@ -6,4 +6,4 @@ Inner join order_details o_d
 On o.order_id = o_d.order_id
 inner join products p 
 On p.product_id= o_d.product_id
-group by e.employee_id;
+group by e.employee_id ;
