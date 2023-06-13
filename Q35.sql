@@ -7,3 +7,4 @@ inner join products p
 On p.product_id = o_d.product_id
 GROUP BY year(o.order_date)
 ORDER BY TotalSales
+  
