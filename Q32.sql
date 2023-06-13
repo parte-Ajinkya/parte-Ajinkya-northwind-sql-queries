@@ -3,3 +3,4 @@
 select e.first_name,e.last_name  from employees e left join orders o 
 On e.employee_id = o.employee_id
 where o.employee_id = Null;
+ 
