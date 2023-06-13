@@ -9,3 +9,4 @@ WHERE YEAR(o.order_date) = 2016
 GROUP BY MONTH(o.order_date)
 ORDER BY Sales DESC
 LIMIT 1;
+ 
