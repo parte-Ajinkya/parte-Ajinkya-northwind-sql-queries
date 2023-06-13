@@ -6,3 +6,4 @@ inner join order_details o_d
 On p.product_id = o_d.product_id
 group by s.supplier_id
 order by revenue DEsc limit 5;
+  
